@@ -1,9 +1,13 @@
 import React from 'react'
+import MainReg from '../Components/Registration/MainReg'
+
+
+
 
 function Registration() {
   return (
     <div>
-      Registration
+      <MainReg/>
     </div>
   )
 }

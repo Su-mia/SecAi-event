@@ -2,10 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
-  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
   color: white;
-
 }
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.custom-border {
+  clip-path: polygon(23% 0, 70% 0%, 100% 0, 100% 71%, 74% 100%, 30% 100%, 0 100%, 0 27%);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1673FF;
+}
+/* For Firefox */
+* {
+  scrollbar-width:auto;
+  scrollbar-color: #1d4ed8 transparent; /* Blue thumb*/
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.custome-shadow {
+  -webkit-box-shadow: -2px 3px 45px -20px rgba(255, 255, 255, 1);
+  -moz-box-shadow: -2px 3px 45px -20px rgba(255, 255, 255, 1);
+  box-shadow: -2px 3px 45px -20px rgba(255, 255, 255, 1);
+}
+
+

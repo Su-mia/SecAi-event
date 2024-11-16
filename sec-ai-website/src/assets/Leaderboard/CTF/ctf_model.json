@@ -1,0 +1,9 @@
+{
+    "ctf_name":"CTF Name",
+    "ctf_type" : "pwn",
+    "ctf_difficulty" : ["Medium", 2],
+    "ctf_body" : "Lorem Ipsum est un texte d\"espace réservé couramment utilisé dans les industries graphique, imprimée et éditoriale pour prévisualiser les mises en page.",
+    "ctf_prereq" : ["Networking", "Networking","Networking","Networking"],
+    "ctf_file_link":"http://example.com/file.pdf",
+    "ctf_hint":"Something is something for something"
+}

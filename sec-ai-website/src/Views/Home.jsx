@@ -1,15 +1,26 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../Components/Home/Navbar";
+import Hero from "../Components/Home/Hero";
+import Event from "../Components/Home/Event";
+import FAQ from "../Components/Home/FAQ";
+import MentorCarousel from "../Components/Home/Mentors";
+import Footer from "../Components/Home/Footer";
+import Agenda from "../Components/Home/Agenda";
+import Sponsors from "../Components/Home/Sponsors";
 
 function Home() {
   return (
-    <div>
-      home
-      <div className="font-open-sans">
-      <p>This is using Open Sans.</p>
-      <code className="font-fira-code">This is using Fira Code for code blocks.</code>
-     </div>
+    <div className="font-fira-code">
+      <Navbar />
+      <Hero />
+      <Event />
+      <MentorCarousel />
+      <Sponsors />
+      <Agenda />
+      <FAQ />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

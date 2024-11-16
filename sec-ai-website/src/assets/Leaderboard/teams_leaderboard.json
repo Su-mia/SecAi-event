@@ -1,0 +1,73 @@
+[
+    {
+      "Team": "Alpha Coders",
+      "Members": ["John Doe", "Jane Smith", "Alice Johnson"],
+      "Score": 0.92345,
+      "Entries": 43,
+      "Last": 7
+    },
+    {
+      "Team": "Byte Warriors",
+      "Members": ["Michael Brown", "Sarah Davis", "Chris Evans"],
+      "Score": 0.75683,
+      "Entries": 58,
+      "Last": 12
+    },
+    {
+      "Team": "Code Crushers",
+      "Members": ["David White", "Emma Wilson", "Emily Clark"],
+      "Score": 0.56789,
+      "Entries": 31,
+      "Last": 5
+    },
+    {
+      "Team": "Debuggers United",
+      "Members": ["Oliver King", "Sophia Martinez", "Ethan Lee"],
+      "Score": 0.88472,
+      "Entries": 25,
+      "Last": 9
+    },
+    {
+      "Team": "Stack Overlords",
+      "Members": ["Ava Scott", "William Turner", "Olivia Moore"],
+      "Score": 0.65329,
+      "Entries": 72,
+      "Last": 3
+    },
+    {
+      "Team": "The Bit Shifters",
+      "Members": ["Liam Rodriguez", "Isabella Walker", "Lucas Young"],
+      "Score": 0.48921,
+      "Entries": 16,
+      "Last": 8
+    },
+    {
+      "Team": "Quantum Coders",
+      "Members": ["Benjamin Harris", "Charlotte Lewis", "Noah Robinson"],
+      "Score": 0.97531,
+      "Entries": 66,
+      "Last": 2
+    },
+    {
+      "Team": "Binary Bandits",
+      "Members": ["James Allen", "Mia Green", "Logan Hall"],
+      "Score": 0.78214,
+      "Entries": 51,
+      "Last": 10
+    },
+    {
+      "Team": "Algorithm Avengers",
+      "Members": ["Jacob Scott", "Amelia Adams", "Daniel Carter"],
+      "Score": 0.61785,
+      "Entries": 27,
+      "Last": 6
+    },
+    {
+      "Team": "Syntax Saviors",
+      "Members": ["Elijah Phillips", "Harper Nelson", "Alexander Perez"],
+      "Score": 0.43569,
+      "Entries": 34,
+      "Last": 11
+    }
+  ]
+  

@@ -1,0 +1,5 @@
+{
+    "leaderboard_standing_calculation" : "This leaderboard is calculated with approximately 80% of the test data. The final results will be based on the other 20%, so the final standings may be different.",
+    "private_leaderboard_currently_unavailable" : "The Private Leaderboard isn't available yet.",
+    "private_leaderboard_unavailable_clarification" : "The final ranks will display here after the competition closes."
+}
