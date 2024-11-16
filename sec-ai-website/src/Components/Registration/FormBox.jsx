@@ -37,7 +37,7 @@ function FormBox(props) {
   }
   return (
     <div
-      className="flex flex-col gap-10 justify-around shrink rounded-[30px] basis-3/5 p-14 border-white border 
+      className=" flex flex-col gap-10 justify-around shrink rounded-[30px] basis-3/5 p-14 border-white border 
                      bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${background_image})` }}
     >
@@ -62,25 +62,39 @@ function FormBox(props) {
           }}
         />
       </div>
-      <div className="flex flex-row-reverse justify-between ">
+      <div
+        className="flex flex-row-reverse justify-between gap-3
+                      md:gap-5 "
+      >
         <button
-          className="flex flex-r justify-around items-center h-14 w-44 rounded-[20px]  bg-mainLighter pl-3 custome-shadow "
+          className="flex flex-r justify-around items-center h-10 w-32  rounded-[20px]  bg-mainLighter pl-3 custome-shadow 
+                       md:h-14 md:w-44"
           onClick={handleClick}
         >
-          <p className="font-fira-code text-2xl">
+          <p className="font-fira-code text-xl  md:text-2xl">
             {props.last ? "Submit " : "Next"}
           </p>
-          <img src={arrow_back} alt="next" />
+          <img className="w-5 h-5 md:w-8 md:h-8" src={arrow_back} alt="next" />
         </button>
         {props.back && (
           <button
-            className="flex justify-start items-center h-14 w-44 rounded-[20px]  bg-transparent border-mainLighter border-2 pl-3 gap-10 custome-shadow"
+            className="flex justify-around items-center h-10 w-32 rounded-[20px]  bg-transparent border-mainLighter border-2 pl-3  custome-shadow
+                        md:h-14 md:w-44"
             onClick={() => {
               props.backButton(props.index);
             }}
           >
-            <img src={arrow_next} alt="next" />
-            <p className="font-fira-code text-2xl">Back</p>
+            <img
+              className="w-5 h-5 md:w-8 md:h-8"
+              src={arrow_next}
+              alt="next"
+            />
+            <p
+              className="font-fira-code text-xl
+                          md:text-2xl"
+            >
+              Back
+            </p>
           </button>
         )}
       </div>

@@ -110,10 +110,12 @@ function MainReg() {
         ref={refList[refList.length - 1]}
       >
         <RegNavBar />
-        <div className="flex flex-row grow ">
-          <FirstStep num={1} />
+        <div className="flex flex-row grow relative ">
+          <div className="absolute">
+            <FirstStep num={1} />
+          </div>
           <div
-            className="flex md:justify-start grow shrink min-w-[400px] md:pl-20  py-10
+            className="flex  grow shrink min-w-[400px] md:pl-20  py-10
                           justify-center w-full px-11"
           >
             <FormBox
@@ -133,14 +135,16 @@ function MainReg() {
         {input_fields.map((item, index) => {
           return (
             <div
-              className="flex flex-row grow h-screen bg-black
+              className="flex flex-row grow relative h-screen bg-black
                           bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: `url(${background_image})` }}
               ref={refList[index]}
             >
-              <OtherSteps num={index + 2} />
+              <div className="absolute">
+                <OtherSteps num={index + 2} />
+              </div>
               <div
-                className="flex md:justify-start grow shrink md:min-w-[400px] md:pl-20 py-24
+                className="flex md:justify-center grow shrink md:min-w-[400px] md:pl-20 py-24
                                justify-center w-full px-11"
               >
                 <FormBox
