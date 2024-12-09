@@ -24,6 +24,10 @@ function FormBox(props) {
         return phoneRegex.test(input_ref.current.value);
       case "discord":
         return true;
+      case "motivation":
+        return input_ref.current.value.trim() !== "";
+      default:
+        return true;
     }
   }
 

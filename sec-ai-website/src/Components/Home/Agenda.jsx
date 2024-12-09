@@ -4,37 +4,34 @@ import React, { useState } from "react";
 import purpleBinaries from "../../assets/Home/purple_binaries.svg";
 const scheduleData = {
   day1: [
-    { time: "9:00 AM", event: "Opening Ceremony" },
-    { time: "10:00 AM", event: "Keynote Speaker" },
-    { time: "11:00 AM", event: "Workshop 1" },
-    { time: "12:00 PM", event: "Lunch Break" },
-    { time: "1:00 PM", event: "Panel Discussion" },
-    { time: "2:00 PM", event: "Workshop 2" },
-    { time: "3:00 PM", event: "Networking" },
-    { time: "4:00 PM", event: "Tech Talk" },
-    { time: "5:00 PM", event: "Closing Ceremony" },
+    { time: "15:30 PM", event: "Check in" },
+    { time: "16:00 PM", event: "Opening Ceremony " },
+    { time: "17:30 PM", event: "coffee break" },
+    { time: "18:00 PM", event: "Open Q&A about the event" },
+    { time: "18:45 PM", event: "Launch of Sec and AI challenges" },
+    { time: "20:30 PM", event: "Dinner break" },
+    { time: "22:00PM", event: "Fun activities" },
+    { time: "00:00 AM", event: "Continuing solving challenges" },
   ],
   day2: [
-    { time: "9:00 AM", event: "Morning Yoga" },
-    { time: "10:00 AM", event: "Session 1" },
-    { time: "11:00 AM", event: "Session 2" },
-    { time: "12:00 PM", event: "Lunch Break" },
-    { time: "1:00 PM", event: "Workshop A" },
-    { time: "2:00 PM", event: "Workshop B" },
-    { time: "3:00 PM", event: "Meet the Experts" },
-    { time: "4:00 PM", event: "Tech Expo" },
-    { time: "5:00 PM", event: "Evening Wrap-up" },
+    { time: "08:00 AM", event: "Breakfast" },
+    { time: "12:00 AM", event: "Launch break." },
+    { time: "14:30 AM", event: "Continue tackling Problems" },
+    { time: "16:30 PM", event: "coffee break" },
+    { time: "17:00 PM", event: "Resume challenge-solving" },
+    { time: "20:00 PM", event: "Dinner Break" },
+    { time: "22:00 PM", event: "Fun activities" },
+    { time: "00:00 AM", event: "Continuing solving challenges" },
+
+
   ],
   day3: [
-    { time: "9:00 AM", event: "Breakfast Networking" },
-    { time: "10:00 AM", event: "Demo Sessions" },
-    { time: "11:00 AM", event: "Hackathon" },
-    { time: "12:00 PM", event: "Lunch Break" },
-    { time: "1:00 PM", event: "Final Presentations" },
-    { time: "2:00 PM", event: "Judging Panel" },
-    { time: "3:00 PM", event: "Award Ceremony" },
-    { time: "4:00 PM", event: "Closing Speech" },
-    { time: "5:00 PM", event: "Farewell" },
+    { time: "08:00 AM", event: "Breakfast" },
+    { time: "12:00 AM", event: "Launch break." },
+    { time: "13:00 AM", event: "Challenges submission " },
+    { time: "16:00 AM", event: "Closing ceremony " },
+
+
   ],
 };
 

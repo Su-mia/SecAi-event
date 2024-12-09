@@ -8,34 +8,41 @@ import background_image from "../../assets/backgrounds/background.jpg";
 
 function MainReg() {
   const navigation = useNavigate();
-
   const input_fields = [
-    {
-      first: false,
-      title: "Your Email",
-      type: "email",
-      back: true,
-    },
-    {
-      first: false,
-      title: "Your Phone Number",
-      type: "phone",
-      back: true,
-    },
-    {
-      first: false,
-      title: "Your Discrod ID",
-      type: "discord",
-      back: true,
-    },
+    { title: "Your Email", type: "email", back: true },
+    { title: "Your Phone Number", type: "phone", back: true },
+    { title: "Your Discord ID", type: "discord", back: true },
+    { title: "Your LinkedIn Profile (Optional but preferable)", type: "linkedin", back: true },
+    { title: "Your Github Profile (Optional but preferable)", type: "github", back: true },
+    { title: "Your School", type: "school", back: true },
+    { title: "Which year are you currently studying in? (1 to 5)", type: "year", back: true },
+    { title: "Do you have any experience in hackathons?", type: "experience", back: true },
+    { title: "Tell us about your skills in cybersecurity and AI?", type: "skills", back: true },
+    { title: "Have you worked on any interesting projects? We'd love to hear about them!", type: "projects", back: true },
+    { title: "Your Team Name (if you have one)", type: "team_name", back: true },
+    { title: "Your Team Members names (3 other participants)", type: "team_members", back: true },
+    { title: "Show us some motivation (we'll take this seriously while evaluating applications)", type: "motivation", back: true },
+  
   ];
+  
 
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
     discord: "",
+    linkedin: "",
+    github: "",
+    school: "",
+    year: "",
+    experience: "",
+    skills: "",
+    projects: "",
+    team_name: "",
+    team_members: "",
+    motivation: "",
   });
+  
 
   function handleInput(e) {
     setFormData((f) => ({
@@ -53,7 +60,7 @@ function MainReg() {
     console.log("final form", formData);
 
     const googleScriptURL =
-      "https://script.google.com/macros/s/AKfycbxa6KIvy3ttuv_BdzLLV4Bnu0NzIEaAkZ_mbRpkuYq52BYYqPhp1qq8JQreMp18kn8V/exec";
+      "https://script.google.com/macros/s/AKfycbww5obwuxdqp4PzRsia0f-X2fbJwmQGLSrLvpZArdZTDIzV2XS8yj54C43iuD3xQzsZ/exec";
 
     const formDataObj = new FormData();
     formDataObj.append("name", formData.name);
@@ -118,7 +125,7 @@ function MainReg() {
                           justify-center w-full px-11"
           >
             <FormBox
-              title="Your Name"
+              title="Your Full Name"
               type="name"
               back={false}
               index={-1}

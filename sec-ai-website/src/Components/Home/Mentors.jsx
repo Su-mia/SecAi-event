@@ -1,22 +1,82 @@
 import React, { useState, useEffect } from "react";
 import eventLogo from "../../assets/Home/HnT_logo.svg";
+import soumeya from "../../assets/Home/mentors-pics1/soumeya.jpg";
+import idriss from "../../assets/Home/mentors-pics1/idriss.jpg";
+import sara from "../../assets/Home/mentors-pics1/sara.png";
+import houda from "../../assets/Home/mentors-pics/houda.jpg";
+import lamine from "../../assets/Home/mentors-pics/lamine.jpg";
+import bilel from "../../assets/Home/mentors-pics/bilel.jpg";
+
 
 const mentors = [
   {
-    name: "John Doe",
-    photo: eventLogo,
+    name: "Mohammed El Amin Larabi",
+    photo: lamine,
     description: [
-      "John is an expert in JavaScript and React with 10 years of experience.",
+      "Mohammed El Amin Larabi is a senior researcher at the Algerian Space Agency, specializing in AI, computer vision, remote sensing image processing, pattern recognition, deep transfer learning, and domain adaptation. He earned his PhD from Beihang University, China, and continues to contribute to cutting-edge research in the field of advanced methods for remote sensing data analysis (EarthAI). He can be reached at: malarabi@asal.dz",
     ],
   },
   {
-    name: "Jane Smith",
-    photo: eventLogo,
+    name: "Mohammed Bilel Amri",
+    photo: bilel,
     description: [
-      "Jane is a cybersecurity expert with 15 years of experience.",
-      "She has worked with top companies like Google and Facebook.",
+      "Mohammed Bilel Amri is a Research Engineer at the Algerian Space Agency's Space Techniques Center in Arzew and a PhD student at the SIMPA Laboratory, University of Science and Technology of Oran Mohamed-Boudiaf. His research focuses on applying Artificial Intelligence techniques to Earth Observation data. He can be reached at bamri@cts.asal.dz or mohammedbilel.amri@univ-usto.dz.",
     ],
   },
+  {
+    name: "Mohamed Idris Hamadi Hamaidi",
+    photo: idriss,
+    description: [
+      "A 4th-year ENSIA student with diverse experience in AI, cybersecurity, quantum computing, and software engineering, currently serving as the president of SecAi students club. Former intern at SLB and Current intern at CTC .",
+    ],
+  },
+  {
+    name: "Ouari Meriem",
+    photo: eventLogo,
+    description: [
+      "4th-year student at the Higher School of Artificial Intelligence and an AI Manager at SECAI Club, with a strong focus on interdisciplinary AI applications.",
+
+    ],
+  },
+  {
+    name: "Soumia Bouyahiaoui",
+    photo: soumeya,
+    description: [
+      "4th year student of AI and data science ENSIA. AI manager at SECAI students club. AI & ML enthusiast with experience in NLP, generative AI, and reinforcement learning.",
+    ],
+  },
+  {
+    name: "Sarra Arab",
+    photo: sara,
+    description: [
+      "4th year student of AI and data science ENSIA. AI manager at SECAI students club. AI & ML enthusiast with experience in NLP, generative AI, and reinforcement learning.",
+    ],
+  },
+  {
+    name: "aya",
+    photo: sara,
+    description: [
+      "",
+    ],
+  },
+  {
+    name: "Maarfi Imene Nour El Houda ",
+    photo: houda,
+    description: [
+      "- 3rd year ENSIA student",
+      "- cyber security team leader at SecAI student club", 
+      "- cyber security and AI enthusiast" 
+
+    ],
+  },
+  {
+    name: "abdelhak",
+    photo: sara,
+    description: [
+      "",
+    ],
+  },
+
   // Add more mentors here
 ];
 
@@ -55,7 +115,7 @@ export default function MentorCarousel({
       id="speakers"
     >
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center w-full bg-dark py-9 font-bold">
-        Speakers
+        Mentors
       </h1>
       <div className="relative w-full py-8 px-4 sm:px-6 lg:px-8">
         <div className="relative rounded-lg min-h-[60vh] lg:min-h-[70vh]">

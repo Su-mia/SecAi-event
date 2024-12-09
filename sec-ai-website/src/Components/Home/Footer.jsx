@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="flex justify-center gap-2 sm:gap-8 md:gap-12 pt-5">
           <a
             className=" bg-dark py-2 px-4 rounded-2xl "
-            href="https://www.linkedin.com/company/sec-ai/"
+            href="https://www.linkedin.com/company/secai-students-club"
           >
             <svg
               width="35"
@@ -78,7 +78,7 @@ export default function Footer() {
           </a>
           <a
             className=" bg-dark py-2 px-4 rounded-2xl "
-            href="https://www.instagram.com/sec_ai/"
+            href="https://www.instagram.com/secai_club/"
           >
             <svg
               width="35"
@@ -98,7 +98,7 @@ export default function Footer() {
           </a>
           <a
             className=" bg-dark py-2 px-4 rounded-2xl "
-            href="https://www.instagram.com/sec_ai/"
+            href="https://www.instagram.com/secai_club/"
           >
             <svg
               width="35"

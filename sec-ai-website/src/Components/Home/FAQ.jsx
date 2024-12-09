@@ -7,23 +7,23 @@ export default function FAQ() {
   // Array of FAQs
   const faqs = [
     {
-      question: "What is your return policy?",
+      question: "Who can participate in Hack and Train?",
       answer:
-        "You can return any item within 30 days of purchase for a full refund.",
+        "H&T is open to everyone interested in AI or cybersecurity, regardless of their skill level. The event is designed to be beginner-friendly while still offering advanced challenges for experienced participants. Teams are recommended to have four members, but solo participants or smaller groups can also join and will be matched with others.",
     },
     {
-      question: "How long does shipping take?",
+      question: "What types of challenges can I expect?",
       answer:
-        "Shipping typically takes 5-7 business days for standard delivery.",
+        "Participants can expect a mix of cybersecurity Capture-the-Flag (CTF) challenges, AI-based problem-solving scenarios, and real-world case studies. The challenges are designed for participants with intermediate experience as well as advanced challenges",
     },
     {
-      question: "Do you offer customer support?",
-      answer: "Yes, we offer 24/7 customer support via email and phone.",
+      question: "What should I do if I have questions or need help during the event?",
+      answer: "Our mentors and event staff will be available throughout the event to answer questions, provide guidance, and help troubleshoot any issues. Just reach out to them onsite or in our event communication channels.",
     },
     {
-      question: "Can I track my order?",
+      question: " Do I need prior experience in AI or cybersecurity to join?",
       answer:
-        "Yes, you will receive a tracking number once your order has been shipped.",
+        "It\’s better to have some prior knowledge in AI or cybersecurity, as this will increase your chances of successfully tackling the challenges. That said, our mentors will be available throughout the event to assist you with any questions or provide guidance whenever needed.",
     },
   ];
 

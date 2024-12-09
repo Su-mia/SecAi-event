@@ -1,10 +1,13 @@
 import React from "react";
 import sponsor1 from "../../assets/Home/secailogo.svg";
 import binaries from "../../assets/Home/blue_binaries.svg";
+import cash from "../../assets/Home/cash-black.png";
+import asal from "../../assets/Home/Mask group.svg";
+import ensia_logo from "../../assets/Home/ensia_logo_with_text.svg";
 export default function Sponsors() {
   return (
     <section className="min-h-screen flex items-center justify-center flex-col">
-      <h2 className="text-2xl font-bold mb-12 text-center">Sponsors</h2>
+      <h2 className="text-2xl font-bold mb-12 text-center">Sponsors & Partners</h2>
 
       <div className="flex w-full items-start justify-center gap-2 sm:gap-12 relative">
         <div className="h-24 w-32 sm:h-56 sm:w-52 bg-dark z-20">
@@ -25,7 +28,7 @@ export default function Sponsors() {
               y="45.5"
               width="187"
               height="200"
-              xlinkHref={sponsor1}
+              xlinkHref={cash}
             />
             <defs>
               <linearGradient
@@ -70,7 +73,7 @@ export default function Sponsors() {
               y="45.5"
               width="170"
               height="200"
-              xlinkHref={sponsor1}
+              xlinkHref={ensia_logo}
             />
             <defs>
               <linearGradient
@@ -106,7 +109,7 @@ export default function Sponsors() {
               y="45.5"
               width="187"
               height="200"
-              xlinkHref={sponsor1}
+              xlinkHref={asal}
             />
             <defs>
               <linearGradient

@@ -24,10 +24,7 @@ export default function Event() {
           </h1>
           <div className="flex items-center flex-col-reverse sm:flex-row gap-8">
             <p className="w-full sm:w-4/5 text-sm sm:text-md md:text-lg  sm:px-6">
-              the event as i told you will be a mix of cyber security and Ai so
-              participants will try to solve CTFs (challenges that are related
-              to cyber security ) by the end of the challenge they will find a
-              flag to pass in to the Ai challenge
+            Hack & Train is a 3-day hackathon merging Artificial Intelligence and Cybersecurity in an engaging, beginner-friendly format. Hosted at the National School of Artificial Intelligence (ENSIA) from December 19th to 21st, it features diverse cybersecurity and AI challenges inspired by real-world scenarios. With a focus on teamwork and collaboration, participants will push boundaries, solve complex problems, and compete in an innovative and inspiring environment.
             </p>
             <div className="w-full grid place-items-center sm:w-1/5">
               <img src={eventLogo} alt="" className="h-36 sm:h-52" />
@@ -50,10 +47,7 @@ export default function Event() {
             <img src={secaiLogo} alt="" className="h-36 sm:h-52" />
           </div>
           <p className="w-full sm:w-4/5 text-sm sm:text-md md:text-lg px-2 sm:px-6">
-            the event as i told you will be a mix of cyber security and Ai so
-            participants will try to solve CTFs (challenges that are related to
-            cyber security ) by the end of the challenge they will find a flag
-            to pass in to the Ai challenge
+          SecAI is the first cybersecurity and AI club at the National Higher School of Artificial Inteligence (ENSIA), forcasting on the standalone previous two domains as well as the intersection between them. Guided by the slogan "AI for Security, Security for AI", the club hosts events and workshops to inspire innovation and empower students in AI-driven security solutions
           </p>
         </div>
       </div>
